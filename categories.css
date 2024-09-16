@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.wrapper{
+    padding: 50px 150px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    margin: 0 ;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links li{
+    list-style: none;
+    margin-right: 25px;
+}
+.nav-links a:hover{
+    color: #f0a500;
+}
+header a{
+    text-decoration: none;
+    color: black;
+}
+section.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .left div ul{
+    padding-right: 400px;
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .left div ul li{
+    list-style: none;
+}
+.container .left{
+    width: 900px;
+}
+.container .left p{
+    margin-top: 25px;
+    line-height: 1.5;
+}
+.container .left .bottom ul li{
+    margin-right: 60px;
+}
+.container .left .bottom ul li a{
+    padding: 15px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+}
+.container .left .bottom ul li a:hover{
+    background-color: aquamarine;
+}
+.container .right{
+    margin-top: 50px;
+}
+.container .right img{
+    margin-bottom: 25px;
+}
+.container .right button{
+    padding: 10px 150px;
+    border-radius: 5px;
+}
+.container .right ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 150px;
+    margin-bottom: 25px;
+}
+.container .right ul li{
+    list-style: none;
+}
+.syllabus div{
+    margin-top: 25px;
+    padding: 25px;
+}
+.syllabus div ul{
+    padding: 15px 30px;
+}
+.syllabus div ul li{
+    list-style: none;
+}
+.syllabus div #syllabus li ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.reviews{
+    height: 600px;
+}
+.reviews .rating ul{
+    margin-top: 15px;
+}
+.reviews .rating ul li{
+    list-style: none;
+}
+.reviews .comments div ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.reviews .comments div ul li{
+    list-style: none;
+}
+.review{
+    position: relative;
+}
+.reviews .comments{
+    position: absolute;
+    top: 1800px;
+    left: 700px;
+}
+section.comments{
+    margin-top: 25px;
+    padding: 0 50px;
+}
+.comments ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.comments .bar ul li img{
+    border: 1px solid grey;
+    background-color: grey;
+    padding:5px 16px;
+    border-radius: 5px;
+}
+.comments #comments{
+    padding: 50px 0;
+}
+.comments #comments ul li{
+    border: 1px solid grey;
+    padding: 15px 50px;
+    border-radius: 5px;
+}
+.comments ul li{
+    list-style: none;
+    margin: 15px;
+}
+
+.courses{
+    padding: 50px 200px;
+}
+.courses ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+.courses div ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.courses div ul li{
+    list-style: none;
+    height: 300px;
+    max-width: 300px;
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 5px;
+}
+.courses div ul li img{
+    margin-bottom: 15px;
+}
+footer{
+    background-color: grey;
+    padding: 0;
+    margin: 0;
+    height: 600px;
+}
+footer #bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 150px 100px;
+}
+footer ul{
+    margin: 0;
+}
+footer ul li{
+    margin-bottom: 20px;
+    list-style: none;
+}
+footer ul li small{
+    font-size: medium; 
+    line-height: 1.5;
+}
+footer #bottom li{
+    max-width: 400px;
+}
+footer ul li{
+    margin: 0;
+    padding: 0;
+}
